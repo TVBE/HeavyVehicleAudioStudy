@@ -11,6 +11,8 @@ public class Shockworks : ModuleRules
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "PhysicsCore", "MetasoundEngine" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
+		
+		PublicIncludePaths.Add("$(ProjectDir)/Source/Shockworks/Audio/Public");
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
